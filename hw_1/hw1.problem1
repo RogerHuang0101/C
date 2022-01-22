@@ -1,0 +1,109 @@
+Script started on Fri Jan 21 17:40:56 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro 520-Assignments % echo "Hello 2022 and the new quarter\!"[?2004l
+
+Hello 2022 and the new quarter!
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro 520-Assignments % now=$(date)[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro 520-Assignments % echo "Current date and time: $now"[?2004l
+
+Current date and time: Fri Jan 21 17:41:25 PST 2022
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro 520-Assignments % echo ~[?2004l
+
+/Users/rogerhuang
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro 520-Assignments % cd ~[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % ls -a[?2004l
+
+.				.config				.matplotlib			595Cyber			Pictures			Test3.class			test1.txt
+..				.cups				.mono				Applications			Projects			Test3.java			test2.txt
+.CFUserTextEncoding		.designer			.pylint.d			Desktop				Public				VS_code				test3.txt
+.DS_Store			.gitconfig			.python_history			Documents			SQL				Virtual Machines.localized	testfile.ipynb
+.IdentityService		.grasp_jss			.sqlite_history			Downloads			Test.class			ass2
+.Trash				.grasp_jss2			.templateengine			LetterInventory.class		Test.java			ass2.zip
+.anaconda			.grasp_settings			.viminfo			LetterInventory.java		Test1.class			hw1.problem1
+.android			.ipynb_checkpoints		.vscode				Library				Test1.java			iCloud雲碟（封存檔）
+.conda				.ipython			.zsh_history			Movies				Test2.class			opt
+.condarc			.jupyter			.zshrc				Music				Test2.java			test
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % mkdir temp_new[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % cd temp_new[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro temp_new % touch file5[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro temp_new % mv file5 test[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro temp_new % cd ..[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % rm -rf temp_new[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % echo "It's a secret\!" > secretfile[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % chmod -w secretfile[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % ls -s secretfile[?2004l
+
+8 secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % echo "This is the text I want to add inside" >> secretfile[?2004l
+
+zsh: permission denied: secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % cat secretfile[?2004l
+
+It's a secret!
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                            
+ 
+
+[0m[27m[24m[J(base) rogerhuang@YuandeMacBook-Pro ~ % exit[?2004l
+
+
+Script done on Fri Jan 21 17:43:42 2022

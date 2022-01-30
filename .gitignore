@@ -2,8 +2,8 @@
 *.d
 
 # Compiled Object files
-*.bin/
-*.build/
+*bin/
+*build/
 *.html/
 *.latex/
 *.tmp/

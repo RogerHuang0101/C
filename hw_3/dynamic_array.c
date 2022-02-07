@@ -338,3 +338,19 @@ DynamicArray * DynamicArray_take ( const DynamicArray * a, int n ) {
 
     return takenArray;
 }
+
+int DynamicArray_is_valid(const DynamicArray * da) {
+    if (da->buffer != NULL) {
+        return 1;
+    }
+
+    else {
+        return 0;
+    }
+}
+
+void DynamicArray_destroy_all(DynamicArray * da) {
+    free(da->buffer);
+    da->buffer = NULL;
+    return;
+}

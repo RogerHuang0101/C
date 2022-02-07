@@ -344,6 +344,21 @@ namespace {
         DynamicArray_destroy(test2); 
         DynamicArray_destroy(test3);        
     }
+
+    TEST(DynamicArray, IsValid) {
+        DynamicArray * da = DynamicArray_new();
+        DynamicArray_push(da, 1);  
+        DynamicArray_push(da, 2);  
+        DynamicArray_push(da, 3);  
+        DynamicArray_push(da, 4);
+        DynamicArray_push(da, 5);  
+        DynamicArray_push(da, 7);
+ 
+        ASSERT_EQ(DynamicArray_is_valid(da), 1);
+        DynamicArray_destroy(da);
+        ASSERT_EQ(DynamicArray_is_valid(da), 0);
+        free(da);          
+    }
      
 
 }

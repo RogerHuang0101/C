@@ -1,0 +1,232 @@
+{
+
+    "name": "Soccer game! Use a, d, w, s to move the brown robot. Use j, l, i, k to move the red robot. Push the ball into your own net to score. First to reach 3 points win",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "agents": [      
+        
+        {
+            "definition": "defs/player.json",
+            "style": { "fill": "brown", "stroke": "#888", "strokeWidth": "5px", "strokeOpacity": "0.25"},
+            "position": { "x": -200, "y": -20, "theta": -90 }
+        },
+        {
+            "definition": "defs/gamer.json",
+            "style": { "fill": "red", "stroke": "#888", "strokeWidth": "5px", "strokeOpacity": "0.25"},
+            "position": { "x": 200, "y": 150, "theta": 150 }
+        },
+
+
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 50, "y": -70, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 230, "y": 0, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -70, "y": 140, "theta": 0 }
+        },
+
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 100, "y": 100, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 100, "y": -100, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -100, "y": 100, "theta": 0 }
+        },
+
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 200, "y": -140, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -230, "y": 140, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -70, "y": 170, "theta": 0 }
+        },
+
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 300, "y": -140, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -300, "y": 140, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -300, "y": 170, "theta": 0 }
+        },
+
+
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -100, "y": -100, "theta": 0 }
+        },    
+
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 80, "y": 80, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 80, "y": -180, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -10, "y": 80, "theta": 0 }
+        },
+        {
+            "definition": "defs/ball.json",
+            "style": { "fill": "lightblue", "stroke": "black", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -145, "y": -5, "theta": 0 }
+        },
+      
+        {
+            "definition": "defs/cell.json",
+            "style": { "fill": "black", "stroke": "#aaa", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": 150, "y": -60, "theta": 0 }
+        },        
+        {
+            "definition": "defs/cell.json",
+            "style": { "fill": "black", "stroke": "#aaa", "strokeWidth": "10px", "strokeOpacity": "0.25" },
+            "position": { "x": -150, "y": 36, "theta": 0 }
+        },     
+      
+        
+        
+        {
+            "definition": "defs/brown_goal.json",
+            "style": { "fill": "brown", "stroke": "#888", "strokeWidth": "2px", "strokeOpacity": "0.25" },
+            "position": {"x": -300, "y": -160, "theta": 100 }
+        },
+
+        {
+            "definition": "defs/red_goal.json",
+            "style": { "fill": "red", "stroke": "#888", "strokeWidth": "2px", "strokeOpacity": "0.25" },
+            "position": {"x": 310, "y": 160, "theta": 100 }
+        }
+           
+         
+        
+        
+    ],
+
+    "references": [
+        {
+            "definition": "defs/ball_fragment.json",
+            "style": { "fill": "green", "stroke": "#888", "strokeWidth": "5px", "strokeOpacity": "0.25" },
+            "position": {"x": -400, "y": -200, "theta": 3.14 }
+        }
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        },
+
+
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": 120 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": 120 }
+            ]
+        },
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": 270, "y": 190 },
+                { "x": 350,  "y": 190 },
+                { "x": 350,  "y": 200 },
+                { "x": 270, "y": 200 }
+            ]
+        },
+        {
+            "style": { "fill": "brown", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -120 },
+                { "x": -350,  "y": -200 },
+                { "x": -340,  "y": -200 },
+                { "x": -340, "y": -120 }
+            ]
+        },
+        {
+            "style": { "fill": "brown", "stroke": "none" },
+            "shape": [
+                { "x": -270, "y": -190 },
+                { "x": -350,  "y": -190 },
+                { "x": -350,  "y": -200 },
+                { "x": -270, "y": -200 }
+            ]
+        }
+
+
+        
+
+    ]
+
+}
